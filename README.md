@@ -9,6 +9,7 @@ désactive depuis **Addons > LWB Hooks**.
 | Rubrique | Fonctionnalité | Fichier |
 |---|---|---|
 | Commande | Domaine choisi et son prix dans le résumé de l'étape « Configurer » | `features/cart_domain_summary.php` |
+| Commande | Produits facturés par option (pas de « 0.00 USD » dans les durées ni le résumé) | `features/price_per_option.php` |
 | Commande | Domaine inclus dans l'offre (+ mot de passe masqué dans les e-mails) | `features/storefront.php` |
 | Commande | Contrôle « J'ai déjà ce domaine » | `features/owndomain.php` |
 | Facturation | Remise pour paiement anticipé | `features/early_payment.php` |

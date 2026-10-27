@@ -21,6 +21,11 @@ function lwb_hooks_features()
             'label' => 'Domaine dans le résumé de commande',
             'desc' => 'À l\'étape « Configurer », le résumé affiche le domaine choisi et son prix, et le total à payer aujourd\'hui les inclut (comme au panier).',
         ],
+        'price_per_option' => [
+            'file' => 'price_per_option.php', 'group' => 'Commande',
+            'label' => 'Produits facturés par option',
+            'desc' => 'Produits à prix de base 0 payés par une option (ex. Google Workspace, nombre d\'adresses) : retire les « 0.00 USD » de la liste des durées et du résumé de commande.',
+        ],
         'storefront' => [
             'file' => 'storefront.php', 'group' => 'Commande',
             'label' => 'Domaine inclus dans l\'offre',
